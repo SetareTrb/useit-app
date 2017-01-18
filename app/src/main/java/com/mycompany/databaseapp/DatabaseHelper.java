@@ -14,7 +14,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static String DB_PATH;
     private static String DB_PATH_PREFIX = "/data/data/";
     private static String DB_PATH_SUFFIX = "/databases/";
-    private static String DB_NAME = "use_it.db";
+    private static String DB_NAME = "use_it_full.db";
     private SQLiteDatabase myDataBase;
     private final Context myContext;
     public DatabaseHelper(Context context) {
