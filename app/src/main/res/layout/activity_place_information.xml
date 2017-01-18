@@ -11,6 +11,13 @@
     tools:context="com.mycompany.databaseapp.PlaceInformationActivity">
 
     <TextView
+        android:id="@+id/place_info_fixed_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" Welcome to the Place_Information_Activity "/>
+
+
+    <TextView
         android:id="@+id/place_info_title"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
