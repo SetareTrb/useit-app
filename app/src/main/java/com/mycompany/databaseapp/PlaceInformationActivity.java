@@ -109,4 +109,8 @@ public class PlaceInformationActivity extends AppCompatActivity {
         // Repeat this for all other information too.
     }
 
+    public void onClickStartSmallMapActivity(View view) {
+        Intent intent = new Intent(this, SmallMapActivity.class);
+        startActivity(intent);
+    }
 }

@@ -23,6 +23,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:onClick="onClickUpdateList"
+        android:onClick="onClickStartBigMapActivity"
         android:text="Big Map" />
 </RelativeLayout>

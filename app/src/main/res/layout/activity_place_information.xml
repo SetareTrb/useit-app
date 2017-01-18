@@ -29,7 +29,14 @@
         android:layout_height="match_parent"
         android:text=" "/>
 
-
+    <Button
+        android:id="@+id/homeButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="onClickStartSmallMapActivity"
+        android:text="Small Map" />
 
 </RelativeLayout>
 

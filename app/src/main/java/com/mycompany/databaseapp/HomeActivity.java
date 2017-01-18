@@ -17,4 +17,9 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DatabaseListActivity.class);
         startActivity(intent);
     }
+
+    public void onClickStartBigMapActivity(View view) {
+        Intent intent = new Intent(this, BigMapActivity.class);
+        startActivity(intent);
+    }
 }
