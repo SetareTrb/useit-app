@@ -28,3 +28,6 @@ Which one of us will work on creating the app logo?
 2) See whether the other fields can be used and incoporated - probably. By replacing the text in android:id="@+id/button1" .   
 3) Try and see how to incorporate the clicks into the list. Not working yet :(  
 
+I think this may have the answer: 
+http://stackoverflow.com/questions/4153517/how-exactly-does-the-androidonclick-xml-attribute-differ-from-setonclicklistene#4153842 
+
